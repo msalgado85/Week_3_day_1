@@ -174,39 +174,39 @@
 
 
 
-##########################################################################################
-# #addition 
-print(7 + 7)
-# #multiplication
-print(7 * 7)
-# #division
-print(7 / 7)
-# #modulo
-print(5 % 2)
-# #powers
-print(7**2)
-# #get the max and min of a number
-print(max(2, 3))
-print(min(3 ,2))
-# #round a number
-round(3.14) 
+# ##########################################################################################
+# # #addition 
+# print(7 + 7)
+# # #multiplication
+# print(7 * 7)
+# # #division
+# print(7 / 7)
+# # #modulo
+# print(5 % 2)
+# # #powers
+# print(7**2)
+# # #get the max and min of a number
+# print(max(2, 3))
+# print(min(3 ,2))
+# # #round a number
+# round(3.14) 
 
-# # absolute value
-print(abs(-8))
-# # order of operations
-print(2 + 10 * 10 + 3)
-# #to do more you need to import special math libraries from python
-from math import *    
-# #this goes out and grabs some different math functions we can use
-# #floor method
-# floor means itll always round up, ceil means itll always round up
-print(floor(3.7))
-# #ceil method
-print(ceil(3.7))
-print(ceil(3.3))
+# # # absolute value
+# print(abs(-8))
+# # # order of operations
+# print(2 + 10 * 10 + 3)
+# # #to do more you need to import special math libraries from python
+# from math import *    
+# # #this goes out and grabs some different math functions we can use
+# # #floor method
+# # floor means itll always round up, ceil means itll always round up
+# print(floor(3.7))
+# # #ceil method
+# print(ceil(3.7))
+# print(ceil(3.3))
 
-# #sqrt method
-print(sqrt(16))
+# # #sqrt method
+# print(sqrt(16))
 
 
 
@@ -234,9 +234,18 @@ print(sqrt(16))
 # # find the remainder of the numbers
 # #round one number
 
+# input("what is your name? ")
+
+number1 = input("input a random number ")
+number2 = input("give me one more ")
+number3 = input("give me a random deicmal ")
 
 
-
+print(int(number1) + int(number2))
+print(int(number1) * int(number2))
+print(max(int(number1), int(number2)))
+print(int(number1) % int(number2))
+print(round(float(number3)))
 
 
 
