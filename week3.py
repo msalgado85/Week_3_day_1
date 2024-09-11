@@ -48,33 +48,33 @@
 
 
 
-# # Review
-# create variables for the following :
-# 1. age
-# 2. name
-# 3. song
-# 4. food
-# 5. number
-age = 17
-name = "manny"
-song = "yaminabe"
-food = "rice"
-number = 777
-# #now include the variables you just made print in the following...
+# # # Review
+# # create variables for the following :
+# # 1. age
+# # 2. name
+# # 3. song
+# # 4. food
+# # 5. number
+# age = 17
+# name = "manny"
+# song = "yaminabe"
+# food = "rice"
+# number = 777
+# # #now include the variables you just made print in the following...
 
 
-# Once upon a time, there was a [age] old coder named [name].
+# # Once upon a time, there was a [age] old coder named [name].
 
-print("Once upon a time, there was a " + str(age) + " old coder " + name)
+# print("Once upon a time, there was a " + str(age) + " old coder " + name)
 
-# [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
+# # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
 
-print(name + " liked to hum the song, " + song + "while coding. It was so annoying that their teammates would throw " + food + "until " + name + " would stop singing." )
+# print(name + " liked to hum the song, " + song + "while coding. It was so annoying that their teammates would throw " + food + "until " + name + " would stop singing." )
 
-# Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+# # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
 
-print("still, " + name + "was the best coder on the team and could write, " + str(number) + " lines of code every day. Maybe " + song + "was  " + name + "'s secret power?")
-##########################################################################################
+# print("still, " + name + "was the best coder on the team and could write, " + str(number) + " lines of code every day. Maybe " + song + "was  " + name + "'s secret power?")
+# ##########################################################################################
 
 
 
@@ -123,7 +123,7 @@ print("still, " + name + "was the best coder on the team and could write, " + st
 # The first name of a person --> firstName
 # The last name of a person --> last_Name
 # The email address of a person --> email_address
-# The percentage of marks obtained by a student --> percent
+# The percentage of marks obtained by a student --> percentStudent
 # A variable to store the number of items in a shopping cart --> number_items
 
 
@@ -140,7 +140,7 @@ print("still, " + name + "was the best coder on the team and could write, " + st
 # 1_variable --> invalid
 # email@address --> invalid
 # percentage% --> invalid
-# i --? valid
+# i --? invalid
 
 
 
@@ -173,27 +173,40 @@ print("still, " + name + "was the best coder on the team and could write, " + st
 # 2. Floating point numbers in Python are notable because they have a decimal point in them, or use an exponential (e) to define the number. For example 2.0 and -2.1 are examples of floating point numbers. 4E2 (4 times 10 to the power of 2) is also an example of a floating point number in Python.
 
 
+
 ##########################################################################################
 # #addition 
-7 + 7
+print(7 + 7)
 # #multiplication
-7 * 7
+print(7 * 7)
 # #division
-7 / 7
+print(7 / 7)
 # #modulo
+print(5 % 2)
 # #powers
-7^7
+print(7**2)
 # #get the max and min of a number
+print(max(2, 3))
+print(min(3 ,2))
 # #round a number
+round(3.14) 
+
 # # absolute value
+print(abs(-8))
 # # order of operations
+print(2 + 10 * 10 + 3)
 # #to do more you need to import special math libraries from python
-# #from math import *    
+from math import *    
 # #this goes out and grabs some different math functions we can use
 # #floor method
+# floor means itll always round up, ceil means itll always round up
+print(floor(3.7))
 # #ceil method
-# #sqrt method
+print(ceil(3.7))
+print(ceil(3.3))
 
+# #sqrt method
+print(sqrt(16))
 
 
 
